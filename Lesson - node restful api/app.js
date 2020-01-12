@@ -3,7 +3,12 @@ const express = require("express");
 const server = express();
 
 server.get("/weather", (request, response) => {
-    response.send("Cool Weather!");
+    const weather = {
+        description: "Cool Weather",
+        degrees: 20,
+        location: "Israel"
+    };
+    response.json(weather);
 });
 
 server.get("/", (request, response) => {
