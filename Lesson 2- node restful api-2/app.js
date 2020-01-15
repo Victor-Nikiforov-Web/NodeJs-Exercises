@@ -14,7 +14,6 @@ server.get("/candies", (request, response) => {
 server.get("/candies/:id", (request, response) => {
     const id = +request.params.id;
     const candy = candies.find(c => c.code === id);
-    console.log(candy);
     response.json(candy);
 });
 
