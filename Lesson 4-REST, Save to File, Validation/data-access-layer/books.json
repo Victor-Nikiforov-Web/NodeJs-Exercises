@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "JS is fun",
+        "price": 108
+    },
+    {
+        "id": 2,
+        "name": "Harry potter",
+        "price": 150
+    },
+    {
+        "id": 3,
+        "name": "Guinness book of records 2020",
+        "price": 200
+    }
+]
